@@ -1,274 +1,301 @@
-<!Doctype html>
-<html lang="ja">
+<!DOCTYPE HTML>
+<html lang="jp">
 <head>
-<meta charset="UTF-8">
-<title>ANGO [ アンゴウ] | 仮想通貨・暗号通貨ブログ | 日本でもっともわかりやすくて、おもしろい仮想通貨メディアを目指しています</title>
-<meta name="viewport" content="width=device-width"/>
-<meta name="description" content="ANGO [ アンゴウ] は、仮想通貨・暗号通貨ブログ。仮テキスト仮テキスト">
-<meta name="keywords" content="ANGO [ アンゴウ] は、仮想通貨・暗号通貨ブログ。仮テキスト仮テキスト">
-<link rel="stylesheet" href="style.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>和洋女子 グリットレイアウト</title>
+
+<meta name="apple-mobile-web-app-title" content="楽しいおかず"><!--タッチアイコンの名前-->
+
+
+
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.ico"/><!--ファビコン-->
+
+
+<!-- iOS Safari and Chrome タッチアイコン -->
+<link rel="apple-touch-icon" sizes="192x192" href="tach.png">
+
+<!-- Android標準ブラウザ(一部) -->
+<link rel="shortcut icon" href="http://〇〇〇〇.com/tach.png">
+
+
+<style>
+
+/* reset */
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, table, th, td {
+  margin: 0;
+  padding: 0;
+  line-height: 1.0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+font-weight: 500;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul, ol {
+  list-style: none; /* マーカーを消す */
+}
+
+a {
+  text-decoration: none; /* 下線を消す */
+}
+
+img {
+  border: 0;
+}
+
+img, input {
+  vertical-align: bottom;
+}
+
+
+/*レイアウト*/
+
+body{
+  background:rgba(255,255,255,1);
+}
+
+
+.container{
+  width:980px;
+  margin:0 auto;
+  overflow:hidden;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+h1{
+  width:320px;
+  height:320px;
+  background:url(img/logo01.png) no-repeat center;
+  text-indent:100%;
+  white-space:nowrap;
+  overflow:hidden;
+}
+
+
+
+
+.box{
+  width:320px;
+  float:left;
+}
+
+li{ 
+  float:left;
+}
+
+img{
+  margin:10px;
+}
+
+
+
+.right{
+  
+  float:right;
+}
+
+
+
+#pc{
+  width:100%;
+  background:rgba(0,0,0,1);
+  height:50px;
+}
+
+#pc p{
+  color:#FFFFFF;
+  text-align:center;
+  line-height:50px;
+}
+
+
+
+
+#sp{
+  display:none;
+}
+
+
+
+/*タブレット*/
+@media screen and (max-width:979px) {
+
+
+.container{
+  width:660px;
+  position:relative;
+}
+
+
+
+.three{
+  width:640px;
+}
+
+
+#pc{
+  display:none;
+}
+
+
+
+#sp{
+  display:block;
+  width:300px;
+  height:300px;
+  background:rgba(0,0,0,1);
+  position:absolute;
+  right:20px;
+  bottom:20px;
+
+}
+
+#sp p{
+  color:#FFFFFF;
+  text-align:center;
+  line-height:300px;
+}
+
+
+
+}
+
+
+
+/*スマホ*/
+@media screen and (max-width:659px) {
+
+.container{
+  width:340px;
+}
+
+
+.box{
+  float:none;
+}
+
+
+.three{
+  width:320px;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
 </head>
+
 <body>
-<div id="wrapper">
-  <header id="headerWrap">
-    <div id="header">
-      <h1 id="headerLogo"> <img src="images/logo.png" alt="ANGO [ アンゴウ]" width="250"> </h1>
-    </div>
-    <div id="headerIn">
-      <nav id="gNav">
-        <div id="gNavIn">
-          <ul id="nav">
-            <li> <a href="#">ホーム</a> </li>
-            <li> <a href="#">ANGOについて</a> </li>
-            <li> <a href="#">人気記事</a> </li>
-            <li> <a href="#">仮想通貨</a> </li>
-            <li> <a href="#">ICO</a> </li>
-            <li> <a href="#">投資入門</a> </li>
-            <li> <a href="#">マニア求む</a> </li>
-            <li> <a href="#">お問い合わせ </a> </li>
-          </ul>
-          <!-- /nav--> 
-        </div>
-        <!-- /gNavIn--> 
-      </nav>
-      <!-- /gNav-->
-      <div id="mainTop">
-        <div id="mainTopIn">
-          <p> <img src="images/mainTop.png" height="390" width="737" alt="日本でもっともわかりやすくて、おもしろい仮想通貨メディアを目指しています"> </p>
-        </div>
-      </div>
-      <!-- /mainTop-->
-      <div id="mainBottom">
-        <div id="mainBottomIn">
-          <p id="balloon"> <img src="images/mainBottom_balloon.png" width="150" alt="ちょっとで 良いから 稼ぎたい！"> </p>
-          <p id="mainbottmText"> <img src="images/mainBottom_text.png" width="400" alt="そんなあなたのための やさしい仮想通貨入門"> </p>
-			<p id="mainBottom_day"><span class="dayUp">2018.05.01</span></p>
-			<p id="continuation"><a href="#">続きを読む</a></p>
-          <p></p>
-          <p></p>
-        </div>
-        <!-- /mainBottomIn--> 
-      </div>
-      <!-- /mainBottom--> 
-    </div>
-    <!-- /headerIn--> 
-  </header>
-  <!-- /headerWrap-->
-  <div id="content">
-    <div id="contentIn">
-      <section id="contentleft">
-        <div id="articleBox1">
-          <h2>おすすめ記事</h2>
-          <ul>
-            <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-            <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-            <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-            <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-          </ul>
-        </div>
-        <div id="newsBox1">
-          <h2>海外ニュース</h2>
-          <div id="newsBox1In">
-            <ul>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-            </ul>
-            <div id="more">
-              <p> <a href="#">もっと見る</a> </p>
-            </div>
-          </div>
-          <!-- /contentleft_box2In--> 
-        </div>
-        <!-- /contentleft_box2-->
-        <div id="Recommended">
-          <div id="RecommendedIn">
-            <h2>おすすめコイン</h2>
-            <ul>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-              <li> <a href="#"> <img src="http://placehold.jp/320x182.png" alt="#"> </a> </li>
-            </ul>
-          </div>
-        </div>
-        <!-- /Recommended-->
-        <div id="articleBox2">
-          <h2>海外ニュース</h2>
-          <div id="articleBox2In">
-            <ul id="articleBox2_ul">
-              <li>
-                <p> <img src="http://placehold.jp/300x200.png" alt="#"> </p>
-                <a href="#">モナコインを買うならzaifが <br>
-                お得！3つの理由で解説してみた </a>
-                <div>
-                  <p class="category"> <a href="#">＃カテゴリー</a> <span class="dayUp">2018.05.01</span> <span class="dayWrite">2018.05.01</span> </p>
-                </div>
-              </li>
-              <li>
-                <p> <img src="http://placehold.jp/300x200.png" alt="#"> </p>
-                <a href="#">モナコインを買うならzaifが <br>
-                お得！3つの理由で解説してみた </a>
-                <div>
-                  <p class="category"> <a href="#">＃カテゴリー</a> <span class="dayUp">2018.05.01</span> <span class="dayWrite">2018.05.01</span> </p>
-                </div>
-              </li>
-              <li>
-                <p> <img src="http://placehold.jp/300x200.png" alt="#"> </p>
-                <a href="#">モナコインを買うならzaifが <br>
-                お得！3つの理由で解説してみた </a>
-                <div>
-                  <p class="category"> <a href="#">＃カテゴリー</a> <span class="dayUp">2018.05.01</span> <span class="dayWrite">2018.05.01</span> </p>
-                </div>
-              </li>
-              <li>
-                <p> <img src="http://placehold.jp/300x200.png" alt="#"> </p>
-                <a href="#">モナコインを買うならzaifが <br>
-                お得！3つの理由で解説してみた </a>
-                <div>
-                  <p class="category"> <a href="#">＃カテゴリー</a> <span class="dayUp">2018.05.01</span> <span class="dayWrite">2018.05.01</span> </p>
-                </div>
-              </li>
-            </ul>
-            <div id="more2">
-              <p> <a href="#">もっと見る</a> </p>
-            </div>
-          </div>
-          <!-- /contentleft_box2In--> 
-        </div>
-        <!-- /contentleft_box2--> 
-      </section>
-      <section id="contentRight">
-        <div id="contentRightIn">
-          <div id="eightStep">
-            <h2>最短で稼げる8ステップ</h2>
-            <div id="eightStep_in">
-              <ul id="eightStep_list">
-                <li> <img src="images/step1.png" width="110" alt="step1">
-                  <p> <a href="#">仮想通貨とは？</a> <br>
-                    <span id="eightcolor1">仕組や基礎などを学ぼう！</span> </p>
-                </li>
-                <li> <img src="images/step2.png" width="110" alt="step1">
-                  <p> <a href="#">ブロックチェーンとは？</a> <br>
-                    <span id="eightcolor2">ビットコインの中心的な技術的！</span> </p>
-                </li>
-                <li class="li_padding"> <img src="images/step3.png" width="110" alt="step1">
-                  <p> <a href="#">ローリスク<br>
-                    ハイリターンの訳</a> <br>
-                    <span id="eightcolor3">リスクが少なく、利益が大きい理由</span> </p>
-                </li>
-                <li> <img src="images/step4.png" width="110" alt="step1">
-                  <p> <a href="#">人気コイン TOP１０</a> <br>
-                    <span id="eightcolor4">あなたにぴったりの通貨を紹介！</span> </p>
-                </li>
-                <li> <img src="images/step5.png" width="110" alt="step1">
-                  <p> <a href="#">取引所 厳選TOP5</a> <br>
-                    <span id="eightcolor5">ぴったりの取引所が見つかる！</span> </p>
-                </li>
-                <li> <img src="images/step6.png" width="110" alt="step1">
-                  <p> <a href="#">口座開設方法</a> <br>
-                    <span id="eightcolor6">主要取引所の開設方法まとめ</span> </p>
-                </li>
-                <li> <img src="images/step7.png" width="110" alt="step1">
-                  <p> <a href="#">ウォレットとは？</a> <br>
-                    <span id="eightcolor7">コインを購入したらウォレットに</span> </p>
-                </li>
-                <li class="li_padding"> <img src="images/step8.png" width="110" alt="step1">
-                  <p> <a href="#">トレードで<br>
-                    気をつけること</a> <br>
-                    <span id="eightcolor8">オススメの方法は長期保有だよ</span> </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- /eightStep-->
-          <div id="about">
-            <div id="aboutIn">
-              <h2><img src="images/about_logo.png" width="130px" alt="ANGO"></h2>
-              <h3>ANGOについて</h3>
-              <p id="aboutText">『ANGO』代表のハナキノボルです。<br>
-                1990年生まれ、日本在住です。<br>
-                今年で7年目になる個人投資家です。<br>
-                ITベンチャー で働くかたわら資産運用を行っています！<br><br>
-                縁あってハタチの頃から続けている投資ですが、正直簡単ではないです。<br><br>
-                でも、正しい「知識」と「情報」さえあれば誰でもちょいブルジョアくらいならなれます。<br><br>
-                このメディアでは僕や僕の周りにいる投資家の経験談を元に『死ぬほどわかりやすく』をモットーにお金にまつわる情報発信をしています。<br><br>
-                趣味みたいな感じで、ゆる&#12316;く更新していますので、気軽な感じでみてくれたら嬉しいです。</p>
-				<div id="twitterlink"><a href="#">@ango_coin</a></div>
-				<div id="aboutlink"><a href="#">ANGOについて</a></div>
-				<div id="linelink"><a href="#"><img src="images/line_icon.png" width="150" alt="Line友達追加"></a></div>
-            </div>
-          </div>
-		  <div id="twitter"><a class="twitter-timeline" data-width="320" data-height="320" href="https://twitter.com/ango_coin?ref_src=twsrc%5Etfw">Tweets by ango_coin</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-		  </div>
-			<div class="articleRight_box" id="articleRight_box1">
-				<h2>人気記事</h2>
-				<div class="articleRight_boxIn" id="articleBox1_In">
-					<ul>
-						<li class="articlebox1_no1"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li class="articlebox1_no2"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li class="articlebox1_no3"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li class="articlebox1_no4"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li class="articlebox1_no5"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-					</ul>
-				</div>
-			</div>
-			<div class="articleRight_box" id="articleRight_box2">
-				<h2>殿堂入り記事</h2>
-				<div class="articleRight_boxIn" id="articleBox2_In">
-					<ul>
-						<li id="articlebox2_no1" class="articlebox1_no1"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox2_no2" class="articlebox1_no2"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox2_no3" class="articlebox1_no3"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox2_no4" class="articlebox1_no4"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox2_no5" class="articlebox1_no5"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-					</ul>
-				</div>
-			</div>
-			<div class="articleRight_box" id="articleRight_box3">
-				<h2>最新の投稿</h2>
-				<div class="articleRight_boxIn" id="articleBox3_In">
-					<ul>
-						<li id="articlebox3_no1" class="articlebox1_no1"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox3_no2" class="articlebox1_no2"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox3_no3" class="articlebox1_no3"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox3_no4" class="articlebox1_no4"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-						<li id="articlebox3_no5" class="articlebox1_no5"><img src="http://placehold.jp/150x90.png" alt="#"><a href="#">【徹底比較】仮想通貨の<br>取引所14社から厳選<br>Top5ランキングを紹...</a><span class="dayUp rightdayUp">2018.05.01</span> <span class="dayWrite rightdayWrite">2018.05.01</span></li>
-					</ul>
-				</div>
-			</div>
-			<div id="category">
-				<h3>カテゴリー</h3>
-				<ul>
-					<li><a href="#">FX</a></li>
-					<li><a href="#">ICO</a></li>
-				</ul>
-			</div>
-        </div>
-        <!-- /contentRightIn--> 
-      </section>
-      <!-- /contentRight--> 
-    </div>
-    <!-- /contentIn--> 
-  </div>
-  <!-- /content-->
-	<footer>
-		<ul>
-			<li><a href="#">サイトマップ</a></li>
-			<li><a href="#">サイトマップ</a></li>
-			<li><a href="#">サイトマップ</a></li>
-		</ul>
-		<ul id="footerUl_02">
-			<li><a href="#">サイトマップ</a></li>
-			<li><a href="#">サイトマップ</a></li>
-		</ul>
-		<p><small>&#169;2018 ANGO</small></p>
-	</footer>
-</div>
-<!-- /wrapper-->
+
+<div class="container">
+
+<div class="box">
+
+<header>
+
+<h1>楽しいおかず</h1>
+
+<nav>
+
+<ul>
+
+<li><a href="#"><img src="img/nav01_01.png" alt="#"></a></li>
+<li><a href="#"><img src="img/nav02_01.png" alt="#"></a></li>
+<li><a href="#"><img src="img/nav03_01.png" alt="#"></a></li>
+<li><a href="#"><img src="img/nav04_01.png" alt="#"></a></li>
+
+</ul>
+</nav>
+
+
+
+
+</header>
+
+<ul>
+<li><img src="img/ph01_l.jpg" alt="#"></li>
+<li><img src="img/ph02_mt.jpg" alt="#"></li>
+<li><img src="img/ph03_s.jpg" alt="#"></li>
+<li><img src="img/ph04_s.jpg" alt="#"></li>
+<li><img src="img/ph05_my.jpg" alt="#"></li>
+<li><img src="img/ph06_s.jpg" alt="#"></li>
+<li><img src="img/ph07_s.jpg" alt="#"></li>
+</ul>
+
+</div><!--box-->
+
+
+<div class="box">
+
+<ul>
+<li><img src="img/ph08_my.jpg" alt="#"></li>
+<li><img src="img/ph09_s.jpg" alt="#"></li>
+<li><img src="img/ph10_s.jpg" alt="#"></li>
+<li><img src="img/ph11_l.jpg" alt="#"></li>
+<li><img src="img/ph12_s.jpg" alt="#"></li>
+<li class="right"><img src="img/ph13_mt.jpg" alt="#"></li>
+<li><img src="img/ph14_s.jpg" alt="#"></li>
+<li><img src="img/ph15_l.jpg" alt="#"></li>
+<li><img src="img/ph16_s.jpg" alt="#"></li>
+<li><img src="img/ph17_s.jpg" alt="#"></li>
+<li><img src="img/ph18_my.jpg" alt="#"></li>
+</ul>
+
+
+</div><!--box-->
+
+
+<div class="box three">
+
+<ul>
+<li><img src="img/ph19_l.jpg"alt="#"></li>
+<li><img src="img/ph20_s.jpg" alt="#"></li>
+<li class="right"><img src="img/ph21_mt.jpg" alt="#"></li>
+<li><img src="img/ph22_s.jpg" alt="#"></li>
+<li><img src="img/ph23_s.jpg" alt="#"></li>
+<li><img src="img/ph24_s.jpg" alt="#"></li>
+<li><img src="img/ph25_my.jpg" alt="#"></li>
+<li><img src="img/ph26_s.jpg" alt="#"></li>
+<li><img src="img/ph27_s.jpg" alt="#"></li>
+<li><img src="img/ph28_s.jpg" alt="#"></li>
+<li><img src="img/ph29_s.jpg" alt="#"></li>
+<li><img src="img/ph30_l.jpg" alt="#"></li>
+</ul>
+
+<footer id="sp"><p><small>Copy&copy;2017/02/28</small></p></footer>
+
+
+
+</div><!--box-->
+
+
+
+
+</div><!--container-->
+
+
+<footer id="pc"><p><small>Copy&copy;2017/02/28</small></p></footer>
+
+
+
 </body>
 </html>
